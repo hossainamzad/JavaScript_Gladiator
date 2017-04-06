@@ -9,6 +9,7 @@ The Emperor has commissioned you to build a Gladiator Arena!! You'll be using yo
 - You'll be working in both `gladiator.js` and `arena.js`. 
 - Use `index.html` to test your code in Chrome Devtools.
 - After each step, there's a block of code that you can copy & paste in your chrome devtools console to make sure you completed the step correctly!!!
+- If you can't figure out one of the steps, try writing some pseudocode in a comment in your file. You never know, it may come to you...
 
 ## ❗️ Your submission should include...
 
@@ -27,7 +28,7 @@ In `gladiator.js`, create a `Gladiator` class that has the following properties:
 * a `name`
 * a `weapon` (one of Spear, Club, Trident)
 
-Run this code in the Chrome Devtools console to check that your Gladiator class is doing what the instructions are asking for. Make sure you're refreshing the page frequently...
+Run this code in the Chrome Devtools console to check that your Gladiator class is doing what the instructions are asking for. Make sure you're saving your files and refreshing the page...
 
 ```js
 const max = new Gladiator('Maximus','Trident');
@@ -35,7 +36,7 @@ console.log(max.name); // should output the string "Maximus"
 console.log(max.weapon); // should output the string "Trident"
 ```
 
-> Ideally the Gladiator class shouldn't accept anything as a weapon except the strings `Spear`, `Club`, and `Trident`... head on down to [the bonus](#bonus) if you want to tackle that now.
+> Ideally the Gladiator class shouldn't accept anything as a weapon except the strings `Spear`, `Club`, and `Trident`... head on down to [the bonus](#bonus-) if you want to tackle that now.
 
 ## Part 2 - The Arena
 
@@ -43,7 +44,7 @@ In `arena.js`, create an `Arena` class that meets the following conditions:
 
 #### 1. An arena has a name
 
-To check that it does, run this code:
+To check that it does, run this code in the Chrome Devtools console:
 
 ```js
 const colosseum = new Arena('Colosseum');
@@ -96,7 +97,7 @@ console.log(colosseum.gladiators.length); // => 2
     * Club beats Trident
     * If the two gladiators have the same weapon, they are both eliminated.
 
-(If you're having a rough time thinking through this, just think about rock paper scissors...)
+(If you're having a rough time thinking through this, just think about Rock Paper Scissors...)
 
 ```js
 const max = new Gladiator('Maximus','Trident');
@@ -120,5 +121,5 @@ What other types of errors can you think of?? Here's a few:
 
 * Add a method to remove gladiators from the arena by name
 * Update your winning conditions so that if the gladiator named "Maximus" is in the fight, he wins.
-* Add a method to check to see if the crowd is entertained (`.entertained`). The crowd is only entertained if Maximus is in the arena.
+* Add a method to check to see if the crowd is entertained (`.entertained()`). The crowd is only entertained if Maximus is in the arena.
 * Before a losing gladiator is eliminated, the user should be prompted to put their thumbs up or down. If user votes down, the losing gladiator is removed. If the user votes up, the gladiator stays in the arena and his opponent is removed. (Life isn't fair.)

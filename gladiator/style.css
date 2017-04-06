@@ -1,0 +1,35 @@
+body {
+  background-image: url('../assets/russell.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: #2D1FE8;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 250px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 6em;
+  color: white;
+  font-weight: 800;
+}
+
+.container h3, .container h5 {
+  margin: 50px 0;
+  font-size: 3em;
+  color: #BEA1A5;
+  font-weight: bold;
+}
