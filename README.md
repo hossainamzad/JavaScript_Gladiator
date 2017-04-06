@@ -17,7 +17,7 @@ The Emperor has commissioned you to build a Gladiator Arena!! You'll be using yo
 - A link to your fork of this repository
 - Completion, comfort, wins, losses, questions... you know the drill.
 
-### 🚨🚨 This homework is due TONIGHT, 4/6, at 10PM!! 🚨🚨
+### 🚨🚨 This homework is due TONIGHT, 4/6, at 11PM!! 🚨🚨
 
 # ⚔ INSTRUCTIONS ⚔
 
