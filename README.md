@@ -1,14 +1,26 @@
-# CLASSES PRACTICE!!!! Gladiator Arena
+# ES6 CLASSES: Gladiator Arena ⚔ 🛡
 
-The Emperor has commissioned you to build a Gladiator Arena.
+![are you not entertained](./assets/entertained.gif)
 
-## How to do this assignment
+The Emperor has commissioned you to build a Gladiator Arena!! You'll be using your newfound ability to create ES6 classes to help them out.
 
-The provided `index.html` file will be useful for testing out your code.
+## Before you start...
+
+- You'll be working in both `gladiator.js` and `arena.js`. 
+- Use `index.html` to test your code in Chrome Devtools.
+- After each step, there's a block of code that you can copy & paste in your chrome devtools console to make sure you completed the step correctly!!!
+
+## Your submission should include...
+
+- An issue ticket on the [ada-students repo](https://git.generalassemb.ly/nyc-wdi-ada/ada-students/issues/new)
+- A link to your fork of this repository
+- Completion, comfort, wins, losses, questions... you know the drill.
+
+# INSTRUCTIONS
 
 ## Part 1 - The Gladiator
 
-Create a `Gladiator` class that has the following properties:
+In `gladiator.js`, create a `Gladiator` class that has the following properties:
 
 * a `name`
 * a `weapon` (one of Spear, Club, Trident)
@@ -19,32 +31,33 @@ console.log(max.name); // "Maximus"
 console.log(max.weapon); // "Trident"
 ```
 
+> Ideally the Gladiator class shouldn't accept anything as a weapon except the strings `Spear`, `Club`, and `Trident`... head on down to [the bonus](#bonus) if you want to tackle that now.
 
 ## Part 2 - The Arena
 
-Create an `Arena` class that meets the following conditions:
+In `arena.js`, create an `Arena` class that meets the following conditions:
 
-### An arena has a name
+#### 1. An arena has a name
 
 ```js
 const colosseum = new Arena('Colosseum');
 console.log(colosseum.name); // => Colosseum
 ```
-### The name should be capitalized
+#### 2. The name should be capitalized
 
 ```js
 const colosseum = new Arena('megalopolis');
 console.log(colosseum.name); // => Megalopolis
 ```
 
-### An arena can have gladiators
+#### 3. An arena can have gladiators
 
 ```js
 const colosseum = new Arena('Colosseum');
 console.log(colosseum.gladiators); // => []
 ```
 
-### You can add a gladiator to the arena
+#### 4. You can add a gladiator to the arena
 
 
 ```js
@@ -54,7 +67,7 @@ colosseum.addGladiator(max);
 console.log(colosseum.gladiators); // => [Gladiator]
 ```
 
-### The arena should never have more than 2 gladiators in it at a time
+#### 5. The arena should never have more than 2 gladiators in it at a time
 
 ```js
 const max = new Gladiator('Maximus','Trident');
@@ -67,7 +80,7 @@ colosseum.addGladiator(andronicus);
 console.log(colosseum.gladiators.length); // => 2
 ```
 
-### If there are two gladiators in the arena, you can call a `fight` method that results in the elimination of one of the gladiators from the arena.
+#### 6. If there are two gladiators in the arena, you can call a `fight` method that results in the elimination of one of the gladiators from the arena.
 
   * Winning conditions:
     * Trident beats Spear
@@ -85,7 +98,7 @@ colosseum.fight();
 console.log(colosseum.gladiators); // => [max]
 ```
 
-### Bonus
+## Bonus
 
 How could you prevent creating Gladiators with a different weapon? e.g. `new Gladiator('J','Taco')` throws an error. (Maybe [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) has something to say about this...)
 
@@ -93,7 +106,7 @@ What other types of errors can you think of?? Here's a few:
 - What if you try to add something to an arena's gladiators that's not an object created with the `Gladiator` class?
 - What if you try to run the `fight` method without two gladiators in the arena?
 
-## Double Bonus!
+## Double Bonus!!!!!!!!
 
 * Add a method to remove gladiators from the arena by name
 * Update your winning conditions so that if the gladiator named "Maximus" is in the fight, he wins.
