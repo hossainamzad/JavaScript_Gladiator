@@ -77,12 +77,12 @@ class Arena {
     for (let i = 0; i < this.gladiators.length; i++) {
       if (this.gladiators[i].name === 'Maximus') {
         console.log('The crowd is entertained!!!!');
-      } else console.log('Bored as fuck');
+      } else console.log('Bored :(');
     }
   }
 
   fightWithElimination() {
-    
+    /// I will add this soon!!!
   }
 
 }
