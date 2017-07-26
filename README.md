@@ -13,10 +13,7 @@ The Emperor has commissioned you to build a Gladiator Arena!! You'll be using yo
 
 ## ❗️ Your submission should include...
 
-- An issue ticket on the [ada-students repo](https://git.generalassemb.ly/nyc-wdi-ada/ada-students/issues/new)
-- A link to your fork of this repository
-- One question you have and one thing you learned based on the reading below.
-- Completion, comfort, wins, losses, questions... you know the drill.
+- A pull request to this repository.
 
 ## ❗️ READING!
 
@@ -25,7 +22,7 @@ In preparation for tomorrow's lecture, we'd like you to read a couple of things.
 - [Refresher on function basics](http://javascript.info/function-basics)
 - [Refresher on DOM manipulation](http://javascript.info/modifying-document)
 
-### 🚨🚨 This homework is due TONIGHT, 4/6, at 11PM!! 🚨🚨
+### 🚨🚨 This homework is due TONIGHT, 07/26, at 11PM!! 🚨🚨
 
 # ⚔ INSTRUCTIONS ⚔
 
